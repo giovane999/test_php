@@ -10,17 +10,7 @@ O sistema deve permitir a criação de clientes (campos descritos abaixo); <br>
 O sistema deve permitir a listagem de clientes (em uma tabela);<br>
 O sistema deve permitir a alteração de clientes;<br>
 O sistema deve permitir a remoção de clientes;<br>
-
-##### Requisitos não funcionais:
-Deve ser utilizada a linguagem PHP;<br>
-Deve ser utilizado GIT para o controle de versionamento;<br>
-Deve ser utilizado um controle de log para ações importantes;<br>
-Deve ter uma documentação (README) de como rodar o projeto;<br>
-Deve ter uma documentação (README) das arquiteturas e bibliotecas usadas;<br>
-Não deve ser utilizado nenhum framework como Laravel, Slim, Cake, etc..<br>
-Pode ser utilizado bibliotecas de terceiros via composer;<br>
-Pode ser utilizado testes automatizados;<br>
-
+ 
 ##### Campos do cliente:
 Nome completo (obridatório);<br>
 Email (obridatório);<br>
@@ -34,5 +24,5 @@ Para realizar seus testes:
 
 Deverá ter o [xampp](https://www.apachefriends.org/download.html) <br>
 Realizar o `git clone https://github.com/giovane999/test_php.git` na pasta httdocs do [xampp](https://www.apachefriends.org/download.html) <br> 
-Executar o arquivo [.sql](https://github.com/giovane999/test_php/blob/master/tb_clientes.sql) <br>
+Executar o arquivo [.sql](https://github.com/giovane999/test_php/blob/master/tb_clientes.sql) em seu banco de dados <br>
 
