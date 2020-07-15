@@ -28,5 +28,5 @@ Executar o arquivo [.sql](https://github.com/giovane999/test_php/blob/master/tb_
 
 ## Segurança e Validações
 
-* [htmlspecialchars()](https://www.php.net/manual/pt_BR/function.htmlspecialchars.php) (Para remover Injeções como XSS, RCE, LFI, RFI, etc) <br>
+* [htmlspecialchars()](https://www.php.net/manual/pt_BR/function.htmlspecialchars.php) Para remover Injeções como XSS, RCE, LFI, RFI, etc. <br>
 * [addslashes()](https://www.php.net/manual/en/function.addslashes.php) Retorna uma string com barras invertidas adicionadas antes dos caracteres que precisam ser escapados (`', ", \, NUL, etc`)
