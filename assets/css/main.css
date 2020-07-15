@@ -1,0 +1,46 @@
+h11 
+{
+    color:red;
+}
+
+#logo 
+{
+        width:50%;
+        height:50%;
+}
+
+.panel-heading
+{
+    font-size:150%;
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+
+.alertas-center
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.alertas-center2 {
+    margin: 10% 10% !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hackudao
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
