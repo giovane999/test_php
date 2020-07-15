@@ -33,6 +33,6 @@ Telefone;<br>
 Para realizar seus testes:
 
 Deverá ter o [xampp](https://www.apachefriends.org/download.html) <br>
-Realizar o `git clone https://github.com/giovane999/test_php.git` na pasta httdocs do [xampp](https://www.apachefriends.org/download.html)
+Realizar o `git clone https://github.com/giovane999/test_php.git` na pasta httdocs do [xampp](https://www.apachefriends.org/download.html) <br> 
 Executar o arquivo [.sql](https://github.com/giovane999/test_php/blob/master/tb_clientes.sql) <br>
 
