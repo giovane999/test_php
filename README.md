@@ -37,5 +37,6 @@ Muito inportante não mudar nome do repositorio padrão (test_php), caso mudar l
 * Validações de E-mail (E-mail Válido / E-mail já Cadastrdo)
 * Validações de Cpf (Cpf Válido / Cpf já Cadastrdo) 
 * Validação se o Cliente Existe ao excluir e editar 
+* utilização de index's em todas as pastas para evitar a falha de `index of`
 
 
