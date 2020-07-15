@@ -24,7 +24,10 @@ Para realizar seus testes:
 
 Deverá ter o [xampp](https://www.apachefriends.org/download.html) <br>
 Realizar o `git clone https://github.com/giovane999/test_php.git` na pasta httdocs do [xampp](https://www.apachefriends.org/download.html) <br> 
-Executar o arquivo [.sql](https://github.com/giovane999/test_php/blob/master/tb_clientes.sql) em seu banco de dados <br>
+Executar o arquivo [.sql](https://raw.githubusercontent.com/giovane999/test_php/master/tb_clientes.sql) em seu banco de dados <br>
+Muito inportante não mudar nome do repositorio padrão (test_php), caso mudar lebrar de realizar as alterações na vareavel `$URL_ATUAL` da função `baseUri()` em [config/autoload.php](https://github.com/giovane999/test_php/blob/master/config/autoload.php) e mudar também no [.htaccess](https://github.com/giovane999/test_php/blob/master/.htaccess)
+
+
 
 ## Segurança e Validações
 
