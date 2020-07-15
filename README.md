@@ -31,12 +31,13 @@ Muito importante não mudar nome do repositório padrão (test_php), caso mudar 
 
 ## Segurança e Validações
 
-* [htmlspecialchars()](https://www.php.net/manual/pt_BR/function.htmlspecialchars.php) Para remover Injeções como XSS, RCE, LFI, RFI, etc. 
-* [addslashes()](https://www.php.net/manual/en/function.addslashes.php) Retorna uma string com barras invertidas adicionadas antes dos caracteres que precisam ser escapados (`', ", \, NUL, etc`) 
-* Validações dos campos em geral 
-* Validações de E-mail (E-mail Válido / E-mail já Cadastrado)
-* Validações de Cpf (Cpf Válido / Cpf já Cadastrado) 
-* Validação se o Cliente Existe ao excluir e editar 
-* utilização de index's em todas as pastas para evitar a falha de `index of`
+* [htmlspecialchars()](https://www.php.net/manual/pt_BR/function.htmlspecialchars.php) Para remover Injeções como XSS, RCE, LFI, RFI, etc;
+* [addslashes()](https://www.php.net/manual/en/function.addslashes.php) Retorna uma string com barras invertidas adicionadas antes dos caracteres que precisam ser escapados (`', ", \, NUL, etc`);
+* Validações dos campos em geral;
+* Validações de E-mail (E-mail Válido / E-mail já Cadastrado);
+* Validações de Cpf (Cpf Válido / Cpf já Cadastrado); 
+* Validação se o Cliente Existe ao excluir e editar;
+* utilização de index's em todas as pastas para evitar a falha de `index of`;
+* Configuração do `.htaccess` para segurança de arquivos `./git/*`;
 
 
