@@ -1,6 +1,20 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+ 
 RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
+
+### never deliver .git folders, .gitIgnore
+RewriteRule ^(.*/)?\.git+ - [R=404,L]
+
+# 2nd line of defense (if no mod_rewrite)
+RedirectMatch 404 ^(.*/)?\.git+
+ 
+ErrorDocument 404 http://localhost/test_php/404.php
+
+ 
 
 RewriteRule ^listar-clientes/?$ \/test_php/listar-clientes.php [NC,L]
 RewriteRule ^cadastrar-clientes/?$ \/test_php/cadastrar-clientes.php [NC,L]
