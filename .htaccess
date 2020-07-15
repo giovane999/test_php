@@ -2,8 +2,8 @@ RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
 
-RewriteRule ^listar-clientes/?$ /listar-clientes.php [NC,L]
-RewriteRule ^cadastrar-clientes/?$ /cadastrar-clientes.php [NC,L]
+RewriteRule ^listar-clientes/?$ \/test_php/listar-clientes.php [NC,L]
+RewriteRule ^cadastrar-clientes/?$ \/test_php/cadastrar-clientes.php [NC,L]
 
-RewriteRule ^remover-cliente\/([0-9A-z_-]+)$ remover-cliente.php?id=$1 [QSA,L,NC]
-RewriteRule ^editar-cliente\/([0-9A-z_-]+)$ editar-cliente.php?id=$1 [QSA,L,NC]
+RewriteRule ^remover-cliente\/([0-9A-z_-]+)$ \/test_php/remover-cliente.php?id=$1 [QSA,L,NC]
+RewriteRule ^editar-cliente\/([0-9A-z_-]+)$ \/test_php/editar-cliente.php?id=$1 [QSA,L,NC]
