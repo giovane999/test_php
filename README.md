@@ -26,3 +26,7 @@ Deverá ter o [xampp](https://www.apachefriends.org/download.html) <br>
 Realizar o `git clone https://github.com/giovane999/test_php.git` na pasta httdocs do [xampp](https://www.apachefriends.org/download.html) <br> 
 Executar o arquivo [.sql](https://github.com/giovane999/test_php/blob/master/tb_clientes.sql) em seu banco de dados <br>
 
+## Segurança e Validações
+
+* [htmlspecialchars()](https://www.php.net/manual/pt_BR/function.htmlspecialchars.php) (Para remover Injeções como XSS, RCE, LFI, RFI, etc) <br>
+* [addslashes()](https://www.php.net/manual/en/function.addslashes.php) Retorna uma string com barras invertidas adicionadas antes dos caracteres que precisam ser escapados (`', ", \, NUL, etc`)
