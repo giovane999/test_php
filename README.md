@@ -1,4 +1,5 @@
-# test_php
+# Test PHP Híbrido
+
 PHP | Desafio 1 - Cadastro de clientes
 ##### O desafio é criar um sistema de cadastro de clientes.
 
@@ -10,7 +11,7 @@ O sistema deve permitir a listagem de clientes (em uma tabela);<br>
 O sistema deve permitir a alteração de clientes;<br>
 O sistema deve permitir a remoção de clientes;<br>
 
-#####Requisitos não funcionais:
+##### Requisitos não funcionais:
 Deve ser utilizada a linguagem PHP;<br>
 Deve ser utilizado GIT para o controle de versionamento;<br>
 Deve ser utilizado um controle de log para ações importantes;<br>
