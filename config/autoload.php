@@ -16,6 +16,6 @@ function Redirect($url, $alert, $msg, $time)
 
 function baseUri()
 {
-    $URL_ATUAL= "http://$_SERVER[HTTP_HOST]";
+    $URL_ATUAL= "http://$_SERVER[HTTP_HOST]/test_php";
     echo $URL_ATUAL;
 }
